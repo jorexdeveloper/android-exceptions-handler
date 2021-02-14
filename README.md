@@ -30,7 +30,7 @@ Download the from below.
 
 > [EH.zip](https://github.com/jorexdeveloper/EH/archive/main.zip)
 
-![Screenshot]() ![Screenshot]()
+![Screenshot](https://github.com/jorexdeveloper/EH/blob/main/img/screenshot_00.png) ![Screenshot](https://github.com/jorexdeveloper/EH/blob/main/img/screenshot_01.png)
 
 ### INSTALLATION
 
