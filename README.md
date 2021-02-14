@@ -26,9 +26,11 @@ View crash logs on android easily and...
 * Stack trace
 * Crash date
 
-Download the from below.
+Download library the from below.
 
 > [EH.zip](https://github.com/jorexdeveloper/EH/raw/main/EH.zip)
+
+You can also download the test apk from [here](https://github.com/jorexdeveloper/EH/raw/main/EHTest/EHTest%20%201.0.apk)
 
 
 ![Screenshot](https://github.com/jorexdeveloper/EH/blob/main/img/screenshot_00.jpg)
