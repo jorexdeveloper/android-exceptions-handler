@@ -68,28 +68,21 @@ public class MyActivity extends Activity {
 }
 ```
 
-#### Methods
+### Methods
 
 `public static final class EH.Builder (Context context)`
 
-                        Method                              | Default Parameters | Description
- ---------------------------------------------------------- | ------------------ | ------------
-public Builder enable (boolean enable)                      |        true        | Enable/disable EH. Exceptions are forwarded to Default Uncaught Exception Handler present before call to `init ()`.
- ---------------------------------------------------------- | ------------------ | ------------
-public Builder runInBackground (boolean runInBackground)    |        true        | Whether EH should function when app is currently stopped. (After call to `onStop ()`)
- ---------------------------------------------------------- | ------------------ | ------------
-public Builder addSuppressed (boolean add)                  |        true        | Whether to add suppressed exceptions to crash log.
- ---------------------------------------------------------- | ------------------ | ------------
-public Builder setMaxActivityLogs (int max)                 |        100         | Maximum number of activity logs/traces to include in crash log. (Last `max` logs are included)
- ---------------------------------------------------------- | ------------------ | ------------
-public Builder setMaxStackTraceSize (int size)              |        100         | Maximum number of stack traces to include in crash log. (First `size` stack traces are included)
- ---------------------------------------------------------- | ------------------ | ------------
-public Builder addEmailAddresses (String... emailAddresses) |        none        | Email addresses included in `Intent` to forward/send crash log to developers.
- ---------------------------------------------------------- | ------------------ | ------------
-public void init ()                                         |        N/A         | Initialize/set up EH with the configurations above.
+Method                                         | Default Parameters | Description
+-----------------------------------------------|--------------------|--------------------------------------------------------------------------------------------------------------------
+`enable (boolean enable)`                      | `true`             | Enable/disable EH. Exceptions are forwarded to Default Uncaught Exception Handler present before call to `init ()`.
+`runInBackground (boolean runInBackground)`    | `true`             | Whether EH should function when app is currently stopped. (After call to `onStop ()`)
+`addSuppressed (boolean add)`                  | `true`             | Whether to add suppressed exceptions to crash log.
+`setMaxActivityLogs (int max)`                 | `100`              | Maximum number of activity logs/traces to include in crash log. (Last `max` logs are included)
+`setMaxStackTraceSize (int size)`              | `100`              | Maximum number of stack traces to include in crash log. (First `size` stack traces are included)
+`addEmailAddresses (String... emailAddresses)` | `none`             | Email addresses included in `Intent` to forward/send crash log to developers.
+`init ()`                                      |  N/A               | Initialize/set up EH with the configurations above.
 
-
-#### Example
+### Example
 
 ```java
 public class MyApplication extends Application {
@@ -111,7 +104,7 @@ public class MyApplication extends Application {
 
 #### Author : Jore-X
 
-### Version : 1.0
+#### Version : 1.0
 
 #### License
 
