@@ -28,9 +28,12 @@ View crash logs on android easily and...
 
 Download the from below.
 
-> [EH.zip](https://github.com/jorexdeveloper/EH/blob/main/EH.zip)
+> [EH.zip](https://github.com/jorexdeveloper/EH/raw/main/EH.zip)
 
-![Screenshot](https://github.com/jorexdeveloper/EH/blob/main/img/screenshot_00.jpg) ![Screenshot](https://github.com/jorexdeveloper/EH/blob/main/img/screenshot_01.jpg)
+
+![Screenshot](https://github.com/jorexdeveloper/EH/blob/main/img/screenshot_00.jpg)
+![Screenshot](https://github.com/jorexdeveloper/EH/blob/main/img/screenshot_01.jpg)
+
 
 ### INSTALLATION
 
