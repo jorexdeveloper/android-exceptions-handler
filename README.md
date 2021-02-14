@@ -1,8 +1,5 @@
 # EH
----
-
-## (Uncaught exception handler for android.)
-
+## Uncaught exception handler for android.
 
 Program to handle and view details of all uncaught exceptions in android applications. An easy way to handle, view, share, and report app crashes quickly on android.
 
@@ -79,12 +76,12 @@ public class MyActivity extends Activity {
 
 Method                                         | Default Parameters | Description
 -----------------------------------------------|--------------------|--------------------------------------------------------------------------------------------------------------------
-`enable (boolean enable)`                      | `true`             | Enable/disable EH. Exceptions are forwarded to Default Uncaught Exception Handler present before call to `init ()`.
+`enable (boolean enable)`                      | `true`             | Enable/disable EH. If `false`, exceptions are forwarded to Default Uncaught Exception Handler present before call to `init ()`.
 `runInBackground (boolean runInBackground)`    | `true`             | Whether EH should function when app is currently stopped. (After call to `onStop ()`)
 `addSuppressed (boolean add)`                  | `true`             | Whether to add suppressed exceptions to crash log.
 `setMaxActivityLogs (int max)`                 | `100`              | Maximum number of activity logs/traces to include in crash log. (Last `max` logs are included)
 `setMaxStackTraceSize (int size)`              | `100`              | Maximum number of stack traces to include in crash log. (First `size` stack traces are included)
-`addEmailAddresses (String... emailAddresses)` | `none`             | Email addresses included in `Intent` to forward/send crash log to developers.
+`addEmailAddresses (String... emailAddresses)` |  none.             | Email addresses included in `Intent` to forward/send crash log to developers.
 `init ()`                                      |  N/A               | Initialize/set up EH with the configurations above.
 
 ### Example
