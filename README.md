@@ -1,11 +1,13 @@
-# EHEH (Uncaught exception handler for android.)
+# EH
 ---
+
+## (Uncaught exception handler for android.)
+
 
 Program to handle and view details of all uncaught exceptions in android applications. An easy way to handle, view, share, and report app crashes quickly on android.
 
-> User friendly.
-
 ### FEATURES
+------------
 
 View crash logs on android easily and...
 
@@ -14,6 +16,7 @@ View crash logs on android easily and...
 * Copy crash log.
 * Save crash log.
 * Detailed information in crash log.
+* User Friendly
 
 #### CRASH LOG INFO
 
@@ -31,11 +34,11 @@ Download the from below.
 
 ### INSTALLATION
 
-All you have to do is download (from above), extract and add the library to your project. See [here](https://www.google.com/) how to add library to project.
+All you have to do is download and extract the zip (from above), then add the library to your project. See [here](https://www.google.com/) how to add library to project.
 
 ### USAGE
 
-Initialize EH with a new `Builder` instance, passing to it the application context...
+Initialize EH with a new `EH.Builder` instance, passing to it the application context...
 
 ```java
 public class MyApplication extends Application {
@@ -73,17 +76,11 @@ public class MyActivity extends Activity {
 ---
 
 public Builder enable (boolean enable)                      |        true        | Enable/disable EH. Exceptions are forwarded to Default Uncaught Exception Handler present before call to `init ()`.
-
 public Builder runInBackground (boolean runInBackground)    |        true        | Whether EH should function when app is currently stopped. (After call to `onStop ()`)
-
 public Builder addSuppressed (boolean add)                  |        true        | Whether to add suppressed exceptions to crash log.
-
 public Builder setMaxActivityLogs (int max)                 |        100         | Maximum number of activity logs/traces to include in crash log. (Last `max` logs are included)
-
 public Builder setMaxStackTraceSize (int size)              |        100         | Maximum number of stack traces to include in crash log. (First `size` stack traces are included)
-
 public Builder addEmailAddresses (String... emailAddresses) |        none        | Email addresses included in `Intent` to forward/send crash log to developers.
-
 public void init ()                                         |        N/A         | Initialize/set up EH with the configurations above.
 
 #### Example
