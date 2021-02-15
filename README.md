@@ -1,7 +1,5 @@
-EH
---
-
-Uncaught exception handler for android.
+EH (Uncaught exception handler for android)
+-------------------------------------------
 
 Program to handle and view details of all uncaught exceptions in android applications. An easy way to handle, view, share, and report app crashes quickly on android, with or without any developer knowledge.
 
@@ -13,8 +11,9 @@ View crash logs on android easily and...
 * Share crash log.
 * Copy crash log.
 * Save crash log.
+* User friendly.
 * Detailed information in crash log.
-* User Friendly
+* Add developer emails added to `Intent` when sending crash log to developers.
 
 ### CRASH LOG INFO
 
@@ -39,7 +38,7 @@ You can also download the test apk from [here](https://github.com/jorexdeveloper
 
 All you have to do is download and extract the zip (from above), then add the library to your project.
 
-Extract the zip and copy the folder **EH** to your project's **libs** directory e.g copy folder to `.../YourProject/app/libs`. Now add the library as a dependency in your application/module build.gradle file i.e to `.../YourProject/app/build.gradle`,
+Extract the zip and copy the folder **EH** to your project's **libs** directory (`.../YourProject/app/libs`), then add the library as a dependency in your application/module `build.gradle` (`.../YourProject/app/build.gradle`).
 
 ```groovy
 dependencies {
@@ -49,7 +48,7 @@ dependencies {
 
 ### USAGE
 
-Initialize **EH** in **Application** with a new **EH.Builder** instance, passing to it the application context...
+Initialize **EH** in **Application** with a new **EH.Builder** instance, passing to it the application **Context**...
 
 ```java
 // import the class
@@ -116,7 +115,7 @@ public EH.Builder runInBackground (boolean runInBackground)
 ```
 > Default Value : true
 
-Whether **EH** should run when app is currently stopped i.e after call to `onStop ()`.
+Whether **EH** should run when app is stopped i.e after call to `onStop ()`.
 
 
 ```java
