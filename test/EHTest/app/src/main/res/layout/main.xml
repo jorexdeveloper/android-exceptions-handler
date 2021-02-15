@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<TextView
+		android:text="Crash the application to start EH"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:padding="32dp"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="CRASH APPLICATION"
+		android:layout_margin="32dp"
+		android:onClick="onCrashButtonClick"/>
+
+</LinearLayout>
+
