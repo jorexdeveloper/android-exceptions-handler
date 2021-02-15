@@ -25,7 +25,7 @@ View crash logs on android easily and...
 
 Download library the from below.
 
-> [EH.zip]()
+> [EH.zip](https://github.com/jorexdeveloper/EH/archive/main.zip)
 
 You can also download the test apk from [here](https://github.com/jorexdeveloper/EH/raw/main/test/EHTest%201.0.apk)
 
