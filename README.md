@@ -46,6 +46,8 @@ dependencies {
 }
 ```
 
+**Tip :** If you find **EH-main** instead of **EH**, just rename it to **EH** or use **EH-main** in place of **EH**.
+
 ### USAGE
 
 Initialize **EH** in **Application** with a new **EH.Builder** instance, passing to it the application **Context**...
