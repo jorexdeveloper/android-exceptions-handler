@@ -1,11 +1,9 @@
 EH (Uncaught exception handler for android)
 -------------------------------------------
 
-Program to handle and view details of all uncaught exceptions in android applications. An easy way to handle, view, share, and report app crashes quickly on android, with or without any developer knowledge.
+Program to handle and view details of all uncaught exceptions in android applications. An easy way to handle, view, share, and report app crashes quickly on android, with or without any prior developer knowledge.
 
 ### FEATURES
-
-View crash logs on android easily and...
 
 * Instantly view crash log
 * Share crash log.
@@ -13,7 +11,7 @@ View crash logs on android easily and...
 * Save crash log.
 * User friendly.
 * Detailed information in crash log.
-* Add developer emails added to `Intent` when sending crash log to developers.
+* Add developer emails added to the **Intent** when sending crash log to developers.
 
 ### CRASH LOG INFO
 
@@ -36,9 +34,9 @@ You can also download the test apk from [here](https://github.com/jorexdeveloper
 
 ### INSTALLATION
 
-All you have to do is download and extract the zip (from above), then add the library to your project.
+All you have to do is download and extract the zip (from above), then follow the below steps to add the library to your project.
 
-Extract the zip and copy the folder **EH** to your project's **libs** directory (`.../YourProject/app/libs`), then add the library as a dependency in your application/module `build.gradle` (`.../YourProject/app/build.gradle`).
+Extract the zip and copy the folder **EH** to your project's **libs** directory (`.../YourProject/app/libs`), then add the library as a dependency in your application/module `build.gradle` file (`.../YourProject/app/build.gradle`).
 
 ```groovy
 dependencies {
@@ -149,7 +147,7 @@ public EH.Builder addEmailAddresses (String... emailAddresses)
 ```
 > Default Value : none
 
-Add email addresses included in `Intent` used to forward/send crash log to developers.
+Add email addresses included in the **Intent** used to forward/send crash log to developers.
 
 
 ```java
@@ -157,7 +155,7 @@ public void init ()
 ```
 Initialize/set up **EH** with the configurations above.
 
-**Tip :** You can change the configurations for **EH** after call to `init ()` by creating a new **EH.Builder** instance or the old one, initializing it with the new configurations and making another call to `init ()`.
+**Tip :** You can change the configurations for **EH** after call to `init ()` by creating a new **EH.Builder** instance or use the old one, then initializing it with the new configurations and making another call to `init ()`.
 
 
 ### EXAMPLE
@@ -183,9 +181,9 @@ public class MyApplication extends Application {
 }
 ```
 
-#### Author : Jore-X
+**CAUTION : DO NOT FORGET** to make a call to the method `init ()` or **EH** will not run and your applications will crash normally.
 
-#### Version : 1.0
+#### Author : Jore-X
 
 #### License
 
@@ -204,3 +202,4 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
+
