@@ -23,7 +23,7 @@ Program to handle and view details of all uncaught exceptions in android applica
 
 Download the library from below.
 
-> [EH.zip](https://github.com/jorexdeveloper/EH/releases/tag/v1.0)
+> [EH-1.0.zip](https://github.com/jorexdeveloper/EH/releases/tag/v1.0)
 
 ### SCREENSHOTS
 
@@ -34,19 +34,17 @@ Download the library from below.
 
 All you have to do is download and extract the zip (from above), then follow the below steps to add the library to your project.
 
-Extract the zip and copy the folder **EH** to your project's **libs** directory (`.../YourProject/app/libs`), then add the library as a dependency in your application/module `build.gradle` file (`.../YourProject/app/build.gradle`).
+Extract the zip and copy the folder **EH-1.0** to your project's **libs** directory (`.../YourProject/app/libs`), then add the library as a dependency in your application/module `build.gradle` file (`.../YourProject/app/build.gradle`).
 
 ```groovy
 dependencies {
-  api project(':app:libs:EH:app')
+  api project(':app:libs:EH-1.0:app')
 }
 ```
 
-**Tip :** If you find **EH-main** instead of **EH**, just rename it to **EH** or use **EH-main** in place of **EH**.
-
 ### USAGE
 
-Initialize **EH** in **Application** with a new **EH.Builder** instance, passing to it the application **Context**...
+Initialize **EH** in your **Application** with a new **EH.Builder** instance, passing to it the application **Context**...
 
 ```java
 // import the class
