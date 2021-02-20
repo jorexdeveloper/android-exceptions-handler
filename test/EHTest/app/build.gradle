@@ -19,6 +19,7 @@ android {
 }
 
 dependencies {
-    api project(':app:libs:EH:app')
+    api project(':..:..:app')
+    compile 'com.android.support:appcompat-v7:25.+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }

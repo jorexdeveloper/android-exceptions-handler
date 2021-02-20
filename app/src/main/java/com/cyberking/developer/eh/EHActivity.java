@@ -73,7 +73,7 @@ public class EHActivity extends Activity {
     item.setOnMenuItemClickListener (new MenuItem.OnMenuItemClickListener () {
         @Override
         public boolean onMenuItemClick (MenuItem p1) {
-          saveLogToFile (true);
+          saveLogToFile ();
           return true;
         }
       });
@@ -107,11 +107,10 @@ public class EHActivity extends Activity {
   }
 
   public void onSendErrorLogClick (View view) {
-    Intent intent = new Intent (Intent.ACTION_SENDTO);
+    Intent intent = new Intent (Intent.ACTION_SEND);
 
     intent.setData (Uri.parse ("mailto:"));
     intent.putExtra (Intent.EXTRA_EMAIL, eEmailAddresses);
-
     String packageName = getApplicationContext ().getPackageName ();
     String txt = " EH crash log for [ " + packageName + " ]";
 
@@ -121,12 +120,6 @@ public class EHActivity extends Activity {
                      .append ("\n\n\n")                 
                      .append (getFullLog ())
                      .toString ());
-
-    File file = saveLogToFile (false);
-
-    if (file != null && file.exists ()) {
-      intent.putExtra (Intent.EXTRA_STREAM, Uri.fromFile (file));
-    }
 
     startActivity (Intent.createChooser (intent, "Send log to developers with..."));
   }
@@ -140,33 +133,30 @@ public class EHActivity extends Activity {
     }
   }
 
-  private File saveLogToFile (boolean notify) {
-    File ext = Environment.getExternalStorageDirectory ();
+  private File saveLogToFile () {
+    File parent = Environment.getExternalStorageDirectory ();
 
     try {
-      if (Environment.getExternalStorageState ().equals (Environment.MEDIA_MOUNTED) && ext != null && ext.exists () && ext.canRead () && ext.canWrite () && ext.canExecute ()) {
+      if (Environment.getExternalStorageState ().equals (Environment.MEDIA_MOUNTED) && parent != null && parent.exists () && parent.canRead () && parent.canWrite ()) {
         Context context = getApplicationContext ();
-        File file = new File (ext, "EHLogs/" + context.getPackageName ());
-
+        File file = new File (parent, "EHLogs/" + context.getPackageName ());
         file.mkdirs ();
 
-        file = new File (file, String.format ("%1$tH_%1$tM_%1$tS_%1$td_%1$tm_%1$tY__EA.LOG", new Date ()));
+        file = new File (file, String.format ("%1$tH_%1$tM_%1$tS_%1$td_%1$tm_%1$tY_EH.LOG", new Date ()));
 
         try (PrintWriter writer = new PrintWriter (new FileWriter (file))) {
           writer.write (getFullLog ());
         }
 
-        if (notify)
-          Toast.makeText (context, "Saved log to :\n" + file.getAbsolutePath (), Toast.LENGTH_LONG).show ();
+        Toast.makeText (context, "Saved log to :\n" + file.getAbsolutePath (), Toast.LENGTH_LONG).show ();
 
         return file;
       }
-      else if (notify)
+      else
         Toast.makeText (getApplicationContext (), "Log NOT saved.\n Storage access required!", Toast.LENGTH_LONG).show ();
     }
     catch (Throwable t) {
-      if (notify)
-        Toast.makeText (getApplicationContext (), "Log NOT saved!\n" + t.getMessage (), Toast.LENGTH_LONG).show ();
+      Toast.makeText (getApplicationContext (), "Log NOT saved!\n" + t.getMessage (), Toast.LENGTH_LONG).show ();
     }
 
     return null;
