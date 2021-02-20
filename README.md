@@ -23,9 +23,9 @@ Program to handle and view details of all uncaught exceptions in android applica
 
 Download the library from below.
 
-> [EH-v1.0.zip](https://github.com/jorexdeveloper/EH/archive/v1.0.zip)
+> [EH-1.0.zip](https://github.com/jorexdeveloper/EH/archive/v1.0.zip)
 
-> [EH-v1.0.tar.gz](https://github.com/jorexdeveloper/EH/archive/v1.0.tar.gz) 
+> [EH-1.0.tar.gz](https://github.com/jorexdeveloper/EH/archive/v1.0.tar.gz) 
 
 ### SCREENSHOTS
 
