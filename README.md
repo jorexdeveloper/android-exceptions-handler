@@ -27,7 +27,7 @@ Download the library from below.
 
 ### SCREENSHOTS
 
-![Screenshot](https://github.com/jorexdeveloper/EH/blob/main/img/screenshot_00.jpg)
+![Screenshot](https://github.com/jorexdeveloper/EH/blob/root/img/screenshot_00.jpg)
 ![Screenshot](https://github.com/jorexdeveloper/EH/blob/main/img/screenshot_01.jpg)
 
 ### INSTALLATION
