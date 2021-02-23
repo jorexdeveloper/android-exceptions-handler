@@ -1,7 +1,3 @@
-[ZIP](https://github.com/jorexdeveloper/EH/archive/v1.0.zip)
-[TAR.GZ](https://github.com/jorexdeveloper/EH/archive/v1.0.tar.gz)
-
-
 EH (Uncaught exception handler for android)
 -------------------------------------------
 
