@@ -23,6 +23,8 @@ Program to handle and view details of all uncaught exceptions in android applica
 
 ### SCREENSHOTS
 
+<img src="./img/screenshot.jpg" class="img-responsive" alt="">
+
 ![Screenshot](https://github.com/jorexdeveloper/EH/blob/root/img/screenshot.jpg)
 ![Screenshot](https://github.com/jorexdeveloper/EH/blob/root/img/screenshotx.jpg)
 
