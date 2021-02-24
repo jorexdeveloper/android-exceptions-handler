@@ -1,5 +1,5 @@
-EH (Uncaught exception handler for android)
--------------------------------------------
+EH
+--
 
 Program to handle and view details of all uncaught exceptions in android applications. An easy way to handle, view, share, and report app crashes quickly on android, with or without any prior developer knowledge.
 
