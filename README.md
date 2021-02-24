@@ -21,12 +21,6 @@ Program to handle and view details of all uncaught exceptions in android applica
 * Activity lifecycle traces
 * Stack trace with suppressed exceptions
 
-Download the library from below.
-
-> [EH-1.0.zip](https://github.com/jorexdeveloper/EH/archive/v1.0.zip)
-
-> [EH-1.0.tar.gz](https://github.com/jorexdeveloper/EH/archive/v1.0.tar.gz) 
-
 ### SCREENSHOTS
 
 ![Screenshot](https://github.com/jorexdeveloper/EH/blob/root/img/screenshot_00.jpg)
