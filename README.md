@@ -32,6 +32,10 @@ Download the library from below.
 
 > [EH-1.0.tar.gz](https://github.com/jorexdeveloper/EH/archive/v1.0.tar.gz) 
 
+You can also download the test apk from below.
+
+> [EHTest-1.0.apk](https://github.com/jorexdeveloper/EH/blob/root/test/EHTest%201.0.apk)
+
 ### INSTALLATION
 
 All you have to do is download and extract the zip (from above), then follow the below steps to add the library to your project.
