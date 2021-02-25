@@ -32,7 +32,7 @@ Download the library from below.
 |Ext       |Size      |Link      |
 |----------|----------|----------|
 |ZIP       |285.60KB  |[EH-1.0.zip](https://github.com/jorexdeveloper/EH/archive/v1.0.zip)|
-|TAR.GZ    |277.44KB  |EH-1.0.tar.gz](https://github.com/jorexdeveloper/EH/archive/v1.0.tar.gz)|
+|TAR.GZ    |277.44KB  |[EH-1.0.tar.gz](https://github.com/jorexdeveloper/EH/archive/v1.0.tar.gz)|
 
 You can also download the test apk from below.
 
