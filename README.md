@@ -23,8 +23,9 @@ Program to handle and view details of all uncaught exceptions in android applica
 
 ### SCREENSHOTS
 
-<img src="./img/screenshot.jpg" class="img-responsive" alt="Sreenshot_1">
-<img src="./img/screenshotx.jpg" class="img-responsive" alt="Screenshot_2">
+|Screenshot 1|Screenshot 2|
+|--|--|
+|![img](./img/screenshot.jpg)|![img](./img/screenshotx.jpg)|
 
 Download the library from below.
 
@@ -32,9 +33,9 @@ Download the library from below.
 
 > [EH-1.0.tar.gz](https://github.com/jorexdeveloper/EH/archive/v1.0.tar.gz) 
 
-You can also download the test apk from below.
+You can also download the test apk from below [1.37MB].
 
-> [EHTest-1.0.apk](https://github.com/jorexdeveloper/EH/blob/root/test/EHTest%201.0.apk)
+> [EHTest-1.0.apk](https://github.com/jorexdeveloper/EH/raw/root/test/EHTest%201.0.apk)
 
 ### INSTALLATION
 
