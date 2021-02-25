@@ -23,9 +23,9 @@ Program to handle and view details of all uncaught exceptions in android applica
 
 ### SCREENSHOTS
 
-|Screenshot 1|Screenshot 2|
+|  |  |
 |--|--|
-|![img](./img/screenshot.jpg)|![img](./img/screenshotx.jpg)|
+|![img](./img/screenshot.png)|![img](./img/screenshotx.png)|
 
 Download the library from below.
 
