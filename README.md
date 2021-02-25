@@ -45,7 +45,7 @@ Extract the zip and copy the folder **EH-1.0** to your project's **libs** direct
 
 ```groovy
 dependencies {
-  api project(':app:libs:EH-1.0:app')
+  api project(':app:libs:EH-1.0:eh')
 }
 ```
 

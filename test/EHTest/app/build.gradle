@@ -19,6 +19,6 @@ android {
 }
 
 dependencies {
-    api project(':..:..:app')
+    api project(':..:..:eh')
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
