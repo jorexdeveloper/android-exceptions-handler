@@ -35,7 +35,7 @@ Download the library from below.
 
 You can also download the test apk from below [1.37MB].
 
-> [EHTest-1.0.apk](https://github.com/jorexdeveloper/EH/raw/root/test/EHTest%201.0.apk)
+> [EHTest-1.0.apk](https://github.com/jorexdeveloper/EH/raw/root/test/EHTest-1.0.apk)
 
 ### INSTALLATION
 
