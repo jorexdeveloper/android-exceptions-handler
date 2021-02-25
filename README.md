@@ -33,7 +33,7 @@ Download the library from below.
 
 > [EH-1.0.tar.gz](https://github.com/jorexdeveloper/EH/archive/v1.0.tar.gz) 
 
-You can also download the test apk from below [1.37MB].
+You can also download the test apk from below [22.0KB].
 
 > [EHTest-1.0.apk](https://github.com/jorexdeveloper/EH/raw/root/test/EHTest-1.0.apk)
 
