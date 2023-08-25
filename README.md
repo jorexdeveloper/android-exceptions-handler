@@ -187,7 +187,7 @@ public class MyApplication extends Application {
 }
 ```
 
-**CAUTION : DO NOT FORGET** to make a call to the method `init ()` or **EH** will not run and your applications will crash normally.
+**NOTE : DO NOT FORGET TO MAKE A CALL TO THE METHOD `init ()` OR *EH* WILL NOT RUN AND YOUR APPLICATIONS WILL CRASH NORMALLY.**
 
 ---
 
