@@ -1,19 +1,15 @@
-EH
---
+# ANDROID APP EXCEPTIONS HANDLER
 
 Program to handle and view details of all uncaught exceptions in android applications. An easy way to handle, view, share, and report app crashes quickly on android, with or without any prior developer knowledge.
 
-### FEATURES
+## FEATURES
 
-* Instantly view crash log
-* Share crash log.
-* Copy crash log.
-* Save crash log.
-* User friendly.
+* Instantly view, share, copy or save crash log.
 * Detailed information in crash log.
-* Add developer emails added to the **Intent** when sending crash log to developers.
+* Include developer emails when sending crash log.
+* User friendly.
 
-### CRASH LOG INFO
+## CRASH LOG INFORMATION
 
 * Device Information
 * App Information
@@ -21,13 +17,13 @@ Program to handle and view details of all uncaught exceptions in android applica
 * Activity lifecycle traces
 * Stack trace with suppressed exceptions
 
-### SCREENSHOTS
+## SCREENSHOTS
 
 |  |  |
 |--|--|
 |![img](./img/screenshot.png)|![img](./img/screenshotx.png)|
 
-Download the library from below.
+## DOWNLOADS
 
 |Ext       |Size      |Link      |
 |----------|----------|----------|
@@ -40,7 +36,7 @@ You can also download the test apk from below.
 |----------|----------|----------|
 |APK       |22.0KB    |[EHTest-1.0.apk](https://github.com/jorexdeveloper/EH/raw/root/test/EHTest-1.0.apk)|
 
-### INSTALLATION
+## INSTALLATION
 
 All you have to do is download and extract the zip (from above), then follow the below steps to add the library to your project.
 
@@ -52,7 +48,7 @@ dependencies {
 }
 ```
 
-### USAGE
+## USAGE
 
 Initialize **EH** in your **Application** with a new **EH.Builder** instance, passing to it the application **Context**...
 
@@ -98,13 +94,13 @@ public class MyActivity extends Activity {
 }
 ```
 
-### CONSTRUCTOR
+## CONSTRUCTORS
 
 ```java
 public EH.Builder (Context appContext)
 ```
 
-### METHODS
+## METHODS
 
 Use these methods to set configurations for **EH** before call to `init ()`.
 
@@ -164,7 +160,7 @@ Initialize/set up **EH** with the configurations above.
 **Tip :** You can change the configurations for **EH** after call to `init ()` by creating a new **EH.Builder** instance or use the old one, then initializing it with the new configurations and making another call to `init ()`.
 
 
-### EXAMPLE
+## EXAMPLES
 
 ```java
 // import the class
@@ -189,11 +185,7 @@ public class MyApplication extends Application {
 
 **NOTE : DO NOT FORGET TO MAKE A CALL TO THE METHOD `init ()` OR *EH* WILL NOT RUN AND YOUR APPLICATIONS WILL CRASH NORMALLY.**
 
----
-
-#### Author : Jore
-
-#### License
+## License
 
 ```
     Copyright © 2021 Jore
