@@ -185,7 +185,7 @@ public class MyApplication extends Application {
 
 **NOTE : DO NOT FORGET TO MAKE A CALL TO THE METHOD `init ()` OR *EH* WILL NOT RUN AND YOUR APPLICATIONS WILL CRASH NORMALLY.**
 
-## License
+## LICENSE
 
 ```
     Copyright © 2021 Jore
